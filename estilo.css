@@ -1,0 +1,58 @@
+html, body,form {
+    height: 100%;
+   } 
+   body{
+       background-color:#e9e9e9;
+   }
+form {
+    display: flex;
+    justify-content: center; /* horizontal center */
+}
+
+.centroDiv {
+    align-self: center; /* vertical center */
+   }
+
+input {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 18px;
+
+    cursor: text;
+   
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 500px;
+    height: 45px;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+input:focus{
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+.telefone{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+button{
+    width: 500px;
+    height: 40px;
+    background-color:#007bff;
+    color: white;
+    border: none;
+}
+
+h1{
+    margin-bottom:8px;
+    text-align: center;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    
+}
